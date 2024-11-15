@@ -1,17 +1,7 @@
 #!/bin/bash
 
-# Configuration
-auth_email=""
-auth_method="token"
-auth_key=""
-zone_identifier=""
-record_name=""
-ttl="1800"
-proxy="false"
-origin="$(hostname -s)"
-slackchannel=""
-slackuri=""
-discorduri=""
+# Source variables
+source .env
 
 # Function to get public IP
 get_public_ip() {
