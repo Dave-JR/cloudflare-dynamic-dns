@@ -29,4 +29,8 @@ This script updates a DNS A record on Cloudflare with the current public IP addr
 1. Configure the script by setting the variables in the configuration section.
 2. Run the script to update the DNS record.
 
+```
+./run
+```
+
 Ensure you have the necessary permissions and API access configured in Cloudflare.
